@@ -58,8 +58,7 @@ export default  ()=>{
           <DropDown label ="Select a color"
            options={options}
            selected={selected}
-           onSelectedChange={setSelected}
-          />
+           onSelectedChange={setSelected}  />
         </Route>
         
         <Route path='/translate'>
