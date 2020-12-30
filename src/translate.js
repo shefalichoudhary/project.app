@@ -30,7 +30,6 @@ const Translate =({label})=> {
             <label> Enter Text</label>
             <input value={text} onChange= {(e)=> setText(e.target.value)} />
             <label className="label">  {label}</label> 
-
           <DropDown  
           selected={language} onSelectedChange={setLanguage} options={options} />
           <hr/>
@@ -38,7 +37,6 @@ const Translate =({label})=> {
           <Convert text={text} language={language} />
           </div>
        </div>
-
       </React.Fragment>
     );
 }
