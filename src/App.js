@@ -13,13 +13,14 @@ const items =[
   },
   {
     title:'Why use React ?',
-    content:'React is a favorite javascript library.'
+    content:'React is a favorite Javascript Library.'
   },
   {
     title:'How do you use React ?',
     content:'You use React by creating components.'
   }
 ];
+
 
 const options =[
   {
